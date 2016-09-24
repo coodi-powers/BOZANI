@@ -1,0 +1,28 @@
+body {
+    background: url("img/social/background_tml.jpg") no-repeat center center fixed;
+}
+
+.sign-in-container .login-wrapper { box-shadow: 0 0px 20px 1px #00A6FF, 0 0 0 #333333;}
+.sign-in-container .login-wrapper .actions .btn { background-color: #00A6FF; border-color: #0CD5E8;}
+.sign-in-container .login-wrapper .header h3 { color: #00A6FF;}
+
+.messages-list .other_balloon {float: left; margin-left: 10px; color: white; background: #3693cf;}
+.messages-list .own_balloon {float: right; margin-right: 10px; color: white; background: #ed6d49;}
+
+.messagesbox { max-height: 400px; overflow: scroll;}
+
+
+
+
+.messages-list .own_balloon:before {
+    right: -10px;}
+.messages-list .own_balloon:after {
+    border-right: 25px solid transparent;
+    right: -15px;
+    border-top: 25px solid #ed6d49; }
+.messages-list .other_balloon:before {
+    left: -10px; }
+.messages-list .other_balloon:after {
+    border-left: 25px solid transparent;
+    left: -15px;
+    border-top: 25px solid #3693cf; }

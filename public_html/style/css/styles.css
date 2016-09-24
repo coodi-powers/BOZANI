@@ -1,0 +1,22 @@
+@font-face {
+    font-family: myfont;
+    src: url(fonts/capture_it.ttf);
+}
+
+
+#body_comingsoon{ background: url('img/background.jpg') no-repeat fixed; background-size: cover;}
+
+#content { width: 100%;}
+
+#content_title{width: 100%; float: right; color: white; padding-top: 100px; font-family: 'myfont'; font-size: 500%; text-align: right; padding-right: 10%;}
+
+#color_yellow{color: #F2D904;}
+
+#content_subtitle{font-size: 65%;}
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+    #content_title{font-size: 200%;}
+}
